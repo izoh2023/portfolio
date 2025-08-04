@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Isaac Ndung'u – Developer Portfolio 🚀
 
-## Getting Started
+This is a modern and interactive personal developer portfolio built using **Next.js**, **React**, **Framer Motion**, and **Three.js (via CubeViewer and StaticScene)**. It showcases skills, experience, and projects, complete with animated typewriter text, a 3D tech stack cube, and a visually engaging workspace scene.
 
-First, run the development server:
+## 🌟 Features
+
+- ⚙️ **Interactive Hero Section** – Introduces the developer using typewriter animation and a visually styled hero image.
+- 🧠 **What I Do Section** – Details development expertise, AI/ML focus, and personal philosophy.
+- 🧰 **Tech Stack Visualization** – 3D rotating cube and categorized list of technologies.
+- 🖼️ **Project Showcase** – Dynamic section showcasing past projects.
+- 📞 **Contact Section** – Contact form or call-to-action for collaboration.
+- 🎨 **Stylized UI** – Beautiful layout using Tailwind CSS with smooth transitions via Framer Motion.
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+.
+├── app/
+│   ├── components/
+│   │   ├── header.tsx
+│   │   ├── techstackRender.tsx  # Renders the CubeViewer
+│   │   ├── workspace.tsx        # Renders 3D developer workspace
+│   │   ├── contactPage.tsx
+│   │   └── projects.tsx
+│   ├── page.tsx                 # Main page with layout and sections
+│   └── ...
+├── public/
+│   ├── hero_image_fade_transparent.png
+│   ├── your_cv.pdf              # Make sure to place your actual CV here
+│   └── ...
+├── styles/
+│   └── globals.css              # Global styles if used
+├── README.md
+└── ...
